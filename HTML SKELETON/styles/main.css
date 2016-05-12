@@ -17,9 +17,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  /*display: flex;
-  justify-content: space-between;
-  align-items: center;*/
 
 }
 
@@ -65,7 +62,6 @@
     background-color: #687175;
     min-width: 95vw;
 
-
     height: 300px;
     right:0;
     top: 8vh;
@@ -78,7 +74,7 @@
     text-decoration: none;
     display: block;
     color: white;
-    font-family: Open Sans, sans-serif;
+    font-family: Lato, sans-serif;
 }
 
 .hamburger:hover .dropdown-content {
@@ -107,7 +103,7 @@
 .header-text h2{
 
   color: white;
-  font-family: Open Sans, sans-serif;
+  font-family: Lato, sans-serif;
   text-align: center;
   padding-bottom: 10px;
 
@@ -190,4 +186,64 @@
   background: #b5cc35;
   color: #fff;
 
+}
+
+.how{
+
+  height: 80vh;
+  width: 100%;
+  background: #f0f0f0;
+}
+
+.summary-container{
+
+  display: flex;
+  justify-content:center;
+  padding-bottom: 25px;
+}
+
+.how p{
+
+  font-family: Open Sans;
+  font-weight: 200;
+  font-size: 25px;
+  color: #3d6269;
+  text-align: center;
+  width: 80%;
+  padding-top: 30px;
+}
+
+.tool-container{
+  width: 100%;
+
+  padding-bottom: 20px;
+  background: #555;
+
+
+}
+.quote-container{
+  width: 100%;
+
+
+}
+
+.tool-container img{
+
+  text-align: center;
+}
+
+.how h2{
+
+  color: #3d6269;
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+#bold{
+
+  font-weight: 500;
 }
