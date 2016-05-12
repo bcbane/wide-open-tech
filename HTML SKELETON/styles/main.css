@@ -1,17 +1,62 @@
-@import url(https://font.googleapis.com/css?family=Lato:400,700,900italic);
-
-html, body{
-
-  box-sizing: border-box;
-}
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
 
 *, *:before, *:active{
 
   box-sizing: inherit;
 }
 
-body {
+.top-home-main{
 
-  margin: 0;
-  padding: 0;
+  width: 110%;
+  height: 400px;
+  background: url(../img/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.main-logo{
+
+  height: 65px;
+  width: 150px;
+  position: absolute;
+  top:4vh;
+  left:5%;
+
+}
+
+.hamburger{
+
+
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 5vh;
+  right: 1%;
+
+}
+
+.hamburger img{
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  width: 100%;
+}
+
+
+@media (min-width: 700px) {
+
+.top-home-main{
+  display: none;
+}
+
+.hamburger{
+  display: none;
+}
+
 }
