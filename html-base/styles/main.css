@@ -11,7 +11,7 @@
 .top-home-main{
 
   width: 100%;
-  height: 400px;
+  height: 420px;
   background: url(../img/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -28,6 +28,11 @@
   top:4vh;
   left:5%;
 
+}
+
+.main-nav{
+
+  display: :none;
 }
 
 .dropdown-container{
@@ -163,11 +168,12 @@
   height: 50px;
   border-radius: 50px;
   border-color: #b5cc35;
-  border-width: 3px;
+  border-width: 2px;
   border-style: solid;
   background: none;
   color: #b5cc35;
   font-size: 20px;
+  font-weight: 200;
 
 }
 
@@ -262,7 +268,7 @@
 
 .pitch-area{
 
-  height: 50vh;
+  height: 70vh;
   width: calc(100%/1.2);
   /*display: inline-block;*/
   /*background: #555;*/
@@ -395,6 +401,33 @@
 
 }
 
+/*this area is for testing*/
+
+/*.help-table{
+
+  width: 100%;
+  display: flex;
+  justify-content:space-around;;
+  align-items: center;
+  flex-direction:row;;
+  margin-bottom: 60px;
+
+}
+
+.help-type {
+  background-color: #fff;
+  margin-bottom: 15px;
+  width: 300px;
+  padding: 25px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+
+}
+*/
+/*this area is for testing*/
+
 .help-type h4{
 
   color: #40666d;
@@ -513,14 +546,71 @@
   padding-bottom: 25px;
 }
 
+
 @media (min-width: 990px) {
 
     .top-home-main{
+
+
+          /*background-position-y: -300px;*/
+    }
+
+    .dropdown-container{
       display: none;
     }
 
+    .main-nav-container{
+
+      position: absolute;
+      top:30px;
+      right: 5%;
+    }
+
+    .main-nav-container a{
+
+      text-decoration: none;
+      color: #fff;
+      font-family: Lato;
+      padding: 10px;
+
+    }
+
+    .main-nav-container a:hover{
+
+      color: #b5cc35;
+    }
+
+
+
     .hamburger{
       display: none;
+    }
+
+    #huge-h2{
+
+      font-size: 150px;
+    }
+
+    #digital{
+
+      position: absolute;
+      left:3%;
+    }
+
+    .header-text h3{
+
+      font-size: 20px;
+    }
+
+    .clear-button{
+
+      width: 200px;
+    }
+
+    .how p{
+
+      width: 65%;
+
     }
 
     .pitch {
